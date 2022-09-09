@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+
+body {
+    font-family: "work sans";
+    background: rgb(34, 193, 195);
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.login__background {
+    height: 100vh;
+
+    .login__container {
+        padding: 0 50px;
+        margin: 0 auto;
+
+        .login__cotent {
+            margin: 50px auto;
+            padding: 10px 20px;
+            background-color: #FFFFFF;
+            border-radius: 25px;
+            width: 500px;
+            height: 450px;
+
+            .col-12.form-group {
+                margin: 15px 0;
+
+                .form-group label {
+                    font-size: 18px;
+                    color: black;
+                    font-weight: 500;
+                }
+
+                .custom-input-password {
+                    position: relative;
+                }
+
+                
+                    i.far.fa-eye, i.far.fa-eye-slash {
+                        cursor: pointer;
+                        font-size: 20px;
+                        top: 7px;
+                        right: 20px;
+                        position: absolute;
+                    }
+
+
+
+            }
+
+            h1 {
+                text-align: center;
+                padding-top: 20px;
+            }
+
+            .btn-login {
+                margin: 10px auto;
+            }
+
+            .btn-login button {
+                border-radius: 25px;
+                width: 100%;
+                height: 40px;
+                font-size: 1.3rem;
+                color: white;
+                font-weight: 700;
+                background: rgb(34, 193, 195);
+                background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+                border: 0px;
+                cursor: pointer;
+                // transition: opacity 0.25s ease-out;
+            }
+
+            .forgot-login a {
+                cursor: pointer;
+            }
+
+            .icon {
+                text-align: center;
+                font-size: 30px;
+
+                i {
+                    color: white;
+                    line-height: 50px;
+                    text-align: center;
+                }
+
+                i.fa-google-plus-g {
+                    background-color: brown;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 100rem;
+                    // margin-right: 20px;
+                    margin: 10px 18px;
+                }
+
+                i.fa-facebook-f {
+                    background-color: rgb(73, 73, 205);
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 100rem;
+                }
+            }
+
+
+
+        }
+    }
+}
